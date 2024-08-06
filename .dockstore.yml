@@ -1,20 +1,9 @@
 version: 1.2
 workflows:
-- name: VRSAnnotator
-  subclass: WDL
+- subclass: WDL
   primaryDescriptorPath: /vrs-annotator.wdl
-  testParameterFiles:
-  - /test/test_inputs.json
-  readMePath: /README.md
-  authors:
-    - name: Quinn Wai Wong
-      email: wongq@ohsu.edu
-      affiliation: Oregon Health and Science University
-      role: Research Engineer
 notebooks:
   - path: /example-analysis.ipynb
-    name: VRSAnnotatorExampleAnalysis
     format: JUPYTER
     language: PYTHON
     topic: Example analysis notebook for a VRS annotated VCF
-    publish: true
