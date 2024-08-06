@@ -2,8 +2,8 @@ version: 1.2
 workflows:
 - subclass: WDL
   primaryDescriptorPath: /vrs-annotator.wdl
-notebooks:
-  - path: /example-analysis.ipynb
-    format: JUPYTER
-    language: PYTHON
-    topic: Example analysis notebook for a VRS annotated VCF
+# notebooks:
+#   - path: /example-analysis.ipynb
+#     format: JUPYTER
+#     language: PYTHON
+#     topic: Example analysis notebook for a VRS annotated VCF
